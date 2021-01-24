@@ -18,7 +18,7 @@ So, for code improving it is possible to use it (docker-compose up --build)
 
 
 ## TODO: 
-- [X] add security
+- [X] add security - (added htaccess and login)
 - [ ] add webP conversion support
 - [ ] image preloading
 - [x] default year
