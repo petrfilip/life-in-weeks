@@ -1,7 +1,11 @@
 <?php
+session_start();
 spl_autoload_register(function ($class) {
     include 'classes/' . $class . '.php';
 });
+
+include 'config.php';
+Security::isAccessApproved();
 
 ?>
 
@@ -51,17 +55,17 @@ spl_autoload_register(function ($class) {
 <h1>Life In Weeks</h1>
 
 
-<?php if (!isset($_GET["year"])): ?>
-  <form method="get">
-    <input name="year" type="number" min="1900" max="2099" step="1" required value="<?= $_GET["year"] ?>">
-    <input type="submit">
-  </form>
-
-<?php endif; ?>
+<?php //if (!isset($_GET["year"])): ?>
+<!--  <form method="get">-->
+<!--    <input name="year" type="number" min="1900" max="2099" step="1" required value="--><?//= $_GET["year"] ?><!--">-->
+<!--    <input type="submit">-->
+<!--  </form>-->
+<!---->
+<?php //endif; ?>
 
 <div id="layout">
   <div id="eventDetail">
-    <h2><span id="event-details-week-id"><?= $_GET["year"] ?>-01</span></h2>
+    <h2><span id="event-details-week-id"><?= DEFAULT_YEAR ?>-01</span></h2>
     <div>
       <label for="event-details-most-common">Most common:</label>
       <textarea id="event-details-most-common"></textarea>
@@ -96,7 +100,7 @@ spl_autoload_register(function ($class) {
       $shiftedEras = [];
 
 
-      $startYear = $_GET["year"] ? $_GET["year"] : 2000;
+      $startYear = DEFAULT_YEAR;
       $endYear = $startYear + 90;
       $currentEra = null;
 

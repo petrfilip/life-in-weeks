@@ -1,8 +1,13 @@
 <?php
+session_start();
+
 
 spl_autoload_register(function ($class) {
     include 'classes/' . $class . '.php';
 });
+
+include 'config.php';
+Security::isAccessApproved();
 
 // required headers
 header("Access-Control-Allow-Origin: *");
