@@ -1,0 +1,19 @@
+[Sat Nov 14 14:20:35.378541 2020] [php7:error] [pid 22] [client 192.168.32.1:57642] script '/var/www/html/codes/input-validation/bad-include.php' not found or unable to stat, referer: http://localhost/codes/input-validation/
+[Sat Nov 14 14:32:31.970344 2020] [php7:error] [pid 21] [client 192.168.32.1:57900] script '/var/www/html/codes/input-validation/good-index.php' not found or unable to stat
+[Sun Nov 15 14:56:25.887361 2020] [php7:error] [pid 24] [client 192.168.32.1:57986] script '/var/www/html/codes/session-stealing/forum.php' not found or unable to stat, referer: http://localhost/codes/session-stealing/
+[Sun Nov 15 14:57:07.524233 2020] [php7:error] [pid 25] [client 192.168.32.1:58154] script '/var/www/html/codes/session-stealing/forum.php' not found or unable to stat, referer: http://localhost/codes/session-stealing/
+[Sun Nov 22 13:51:57.572677 2020] [php7:error] [pid 17] [client 192.168.32.1:44058] script '/var/www/html/examples/api/03-autocomplete-api.php' not found or unable to stat
+[Sun Nov 22 13:52:07.819496 2020] [php7:error] [pid 17] [client 192.168.32.1:44058] script '/var/www/html/examples/api/02-autocomplete-json.php' not found or unable to stat, referer: http://localhost/examples/?page=03-autocomplete-json.html
+[Sun Nov 22 13:52:08.544951 2020] [php7:error] [pid 17] [client 192.168.32.1:44058] script '/var/www/html/examples/api/02-autocomplete-json.php' not found or unable to stat, referer: http://localhost/examples/?page=03-autocomplete-json.html
+[Sun Nov 22 16:24:31.270141 2020] [php7:error] [pid 17] [client 192.168.32.1:49386] script '/var/www/html/examples/api/06-insert-form.php' not found or unable to stat, referer: http://localhost/examples/?page=06-insert-form.html
+[Sun Nov 22 16:24:35.305747 2020] [php7:error] [pid 17] [client 192.168.32.1:49386] script '/var/www/html/examples/api/06-insert-form.php' not found or unable to stat, referer: http://localhost/examples/?page=06-insert-form.html
+[Sun Nov 22 16:42:05.839291 2020] [php7:error] [pid 18] [client 192.168.32.1:54068] script '/var/www/html/index.php' not found or unable to stat
+[Sun Nov 22 16:43:18.746493 2020] [php7:error] [pid 17] [client 192.168.32.1:54404] script '/var/www/html/index.php' not found or unable to stat
+[Sun Nov 22 18:40:40.256524 2020] [php7:error] [pid 19] [client 192.168.32.1:44034] script '/var/www/html/examples/api/08-json-to-html.php' not found or unable to stat, referer: http://localhost/examples/?page=08-loading.html
+[Sun Nov 22 18:40:41.549704 2020] [php7:error] [pid 19] [client 192.168.32.1:44034] script '/var/www/html/examples/api/08-json-to-html.php' not found or unable to stat, referer: http://localhost/examples/?page=08-loading.html
+[Sun Nov 22 18:40:48.917886 2020] [php7:error] [pid 17] [client 192.168.32.1:44044] script '/var/www/html/examples/api/08-json-to-html.php' not found or unable to stat, referer: http://localhost/examples/?page=08-loading.html
+[Sat Jan 23 15:56:10.567652 2021] [:error] [pid 19] [client 172.22.0.1:47024] script '/var/www/html/liy.php' not found or unable to stat, referer: http://localhost/liy.php
+[Sat Jan 23 16:22:31.498035 2021] [:error] [pid 19] [client 172.22.0.1:48144] script '/var/www/html/api.php' not found or unable to stat, referer: http://localhost/life-in-weeks/
+[Sat Jan 23 16:46:21.129912 2021] [:error] [pid 21] [client 172.22.0.1:50094] script '/var/www/html/life-in-weeks/file-uploads.php' not found or unable to stat, referer: http://localhost/life-in-weeks/
+[Sat Jan 23 17:55:35.360906 2021] [:error] [pid 22] [client 172.22.0.1:51580] script '/var/www/html/api.php' not found or unable to stat, referer: http://localhost/life-in-weeks/
+[Sat Jan 23 17:55:46.554489 2021] [:error] [pid 21] [client 172.22.0.1:51586] script '/var/www/html/api.php' not found or unable to stat, referer: http://localhost/life-in-weeks/

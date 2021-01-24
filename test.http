@@ -1,0 +1,10 @@
+POST http://localhost:80//life-in-weeks/file-upload.php
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="me.png"
+
+< ./uploads/2021-01-24-10-19-07_2021-01-24_11-18.png
+--WebAppBoundary--
+
+###

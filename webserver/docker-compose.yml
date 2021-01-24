@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  liw-webserver:
+    build: ./docker/webserver
+    image: apache-php
+    ports:
+      - "80:80"
+    volumes:
+      - ./../:/var/www/html
+      - ./vhosts:/etc/apache2/sites-available
+      - ./vhosts:/etc/apache2/sites-enabled
+
+
+

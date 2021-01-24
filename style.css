@@ -1,0 +1,98 @@
+body {
+    background-color: #F5F5F5;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+#layout {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+}
+
+.year-wrapper {
+    display: flex;
+}
+
+.week {
+    border: 1px solid black;
+    padding: 3px;
+    width: 3px;
+    height: 3px;
+    margin: 1px;
+    background-color: white;
+}
+
+.week-wrapper {
+    padding: 1px;
+}
+
+.year {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;;
+    position: relative;
+}
+
+form > label > span {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input[type=submit], input, select, textarea {
+    width: 100%;
+    min-width: 270px;
+    /*padding: 10px;*/
+    /*box-sizing: content-box;*/
+    margin: 1px;
+}
+
+.test {
+    display: flex;
+    background-color: deeppink;
+}
+
+.mc {
+    background-color: #3e3e3e;
+    transition: 1s;
+}
+
+#eventDetail {
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: #F5F5F5;
+}
+
+#eventDetail > div {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    width: 400px;
+}
+
+.legend-era {
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.now-week {
+    border: 1px solid yellowgreen;
+    background-color: deeppink;
+}
+
+.selected {
+    border: 1px solid red;
+}
+
+
